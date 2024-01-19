@@ -24,3 +24,4 @@ function greetme( age : number  , name: string = "Abhi") {
 }
 
 console.log(greetme(21 ));
+

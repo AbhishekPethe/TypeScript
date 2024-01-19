@@ -27,3 +27,4 @@ let b: any = "abc"
 b.toUpperCase()
 console.log(b);
 
+export { }
