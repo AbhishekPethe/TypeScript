@@ -40,3 +40,4 @@ const arrowPerson = (): { firstName: string, age: number, isOk: boolean } => {
     }
 }
 console.log(arrowPerson());
+

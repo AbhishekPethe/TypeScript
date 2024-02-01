@@ -19,3 +19,21 @@ const arr5: number[][][] = [[[1,2,3,4,5]]]
 console.log(arr4);
 console.log(arr5);
 
+
+/// type alias with array ///
+
+type User = {
+    name: string,
+    isOk : boolean
+}
+
+
+const arrr: User[] = []
+
+arrr.push({ name: "a", isOk: false }, {name : "b" , isOk : true})
+console.log(arrr);
+
+
+
+
+export {}
